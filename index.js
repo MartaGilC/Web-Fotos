@@ -19,7 +19,6 @@ server.use(express.urlencoded({ extended: false }));
 
 
 server.use("/imagenes", rutaImagen);
-
 server.listen(PORT, () => {
     console.log(`Va todo genial. Funcionando en http://localhost:${PORT}`)
 })
